@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    padding-top: 10rem;
+}
+
+.sign-up {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-weight: lighter;
+    color: rgb(145, 140, 140);
+}
+
+input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border-color: lightgray;
+}
+
+.names {
+    padding: 1rem;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    width: 15rem;
+    border-color: transparent;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.sex {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.sex-category {
+    padding: auto 3rem;
+}
+
+label {
+    text-transform: capitalize;
+    color: rgb(154, 153, 153);
+}
+
+.location {
+    margin-top: 2rem;
+}
